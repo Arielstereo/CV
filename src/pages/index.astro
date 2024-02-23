@@ -1,0 +1,29 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Experience from "../components/Experience.astro";
+import Portfolio from "../components/Portfolio.astro";
+import Footer from '../components/Footer.astro'
+
+---
+
+<Layout title="CV Ariel Martinez">
+  <main>
+    <Header />
+    <Experience />
+    <Portfolio />
+    <Footer />
+  </main>
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    padding: 1rem;
+    width: 1200px;
+    max-width: calc(100% - 2rem);
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+</style>
