@@ -5,40 +5,42 @@ import LinkedinButton from "./LinkedinButton.astro";
 import WhatsAppButton from "./WhatsAppButton.astro";
 ---
 
-<div class="mb-32">
+<div class="md:mb-32">
   <div class="flex gap-8">
-    <img class="rounded-full w-24 h-24" src="./foto_perfil.png" alt="avatar" />
-    <h1 class="text-gradient text-5xl md:text-7xl">Ariel Martinez</h1>
+    <img class="rounded-full h-20 w-20 md:w-24 md:h-24" src="./foto_perfil.png" alt="avatar" />
+    <h1 class="text-4xl md:text-7xl">Ariel Martinez</h1>
   </div>
   <div class="flex flex-col md:flex-row gap-8">
-    <h2 class="text-yellow-500 font-semibold text-2xl ml-32 mt-2">Desarrollador Web</h2>
-    <div class="flex gap-2 ml-6">
+    <h2 class=" text-slate-200 text-xl md:text-3xl ml-24 md:ml-32 mt-2">
+      Desarrollador Web
+    </h2>
+    <div class="flex gap-6 ml-6">
       <LinkedinButton />
-      <EmailButton/>
-      <WhatsAppButton/>
-      <GithubButton/>
+      <EmailButton />
+      <WhatsAppButton />
+      <GithubButton />
     </div>
   </div>
-  
-  <p class="text-wrap px-8 mt-8">
-    Me gusta crear sitios web y aplicaciones. En continuo apredizaje de nuevas
+
+  <p class="text-wrap text-slate-300 md:px-8 mt-8">
+    Desarrollador de sitios web y aplicaciones. En continuo apredizaje de nuevas
     tecnologías. Me destaco en el desarrollo Frontend. Con experiencia en <span
-      class="font-bold text-slate-200"
+      class="font-bold text-yellow-400"
       >HTML, CSS, JavaScript, React, Next, Astro, Tailwind.</span
     >
   </p>
-  <p class="text-wrap px-8">
+  <p class="text-wrap text-slate-300 md:px-8">
     Tengo varios proyectos realizados tanto de forma individual como trabajando
     con otros desarrolladores.
   </p>
-  <p class="text-wrap px-8">
+  <p class="text-wrap text-slate-300 md:px-8">
     Como Fullstack también adquirí conocimientos de <span
-      class="font-bold text-slate-200"
-      >Node, Express, MongoDB, MySql, entre otras tecnologías.</span
+      class="font-bold text-yellow-400">Node, Express, MongoDB, MySql,</span
     >
+    entre otras tecnologías.
   </p>
-  
-  
-  
-  
+  <p class="text-wrap text-slate-300 md:px-8">
+    Manejo <span class="font-bold text-yellow-400">Git</span>
+    para el control de versiones de mis proyectos.
+  </p>
 </div>
